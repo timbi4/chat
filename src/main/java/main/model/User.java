@@ -9,15 +9,15 @@ import java.util.Date;
 
 @Entity
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    private Date regTime;
-    private String sessionId;
-    private String name;
 
-    //GETTERS & SETTERS
+    private Date regTime;
+
+    private String sessionId;
+
+    private String name;
 
     public int getId() {
         return id;
